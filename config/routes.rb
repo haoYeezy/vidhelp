@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'videos/new'
+
+  get 'videos/all'
+
+  get 'users/new'
+
+  get 'users/edit'
+
+  get 'users/show'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
