@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+User.create( )
+
+Video.create!(
+	sender: 1,
+	receiver: 2,
+)
+
+Video.create!(
+	sender: 2,
+	receiver: 3,
+)
