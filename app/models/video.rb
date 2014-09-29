@@ -6,6 +6,7 @@ scope :unseen, where(seen_at: nil)
 
 	def check_sender
 		if self.sender?
-		self.sender = userid	
-	end	
+		self.sender = userid
+		end	
+	end
 end
