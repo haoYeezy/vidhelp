@@ -17,8 +17,11 @@ ActiveRecord::Schema.define(version: 20140909013246) do
   enable_extension "plpgsql"
 
   create_table "users", force: true do |t|
+    t.string "userid"
     t.datetime "created_at"
     t.datetime "updated_at"
+
+    t.timestamp
   end
 
   create_table "videos", force: true do |t|
@@ -27,6 +30,8 @@ ActiveRecord::Schema.define(version: 20140909013246) do
     t.datetime "seen_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+
+    t.timestamp
   end
 
 end
