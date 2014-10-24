@@ -9,4 +9,6 @@ scope :unseen, where(seen_at: nil)
 		self.sender = userid
 		end	
 	end
+
+	
 end
